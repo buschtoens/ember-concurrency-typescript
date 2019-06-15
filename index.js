@@ -9,6 +9,7 @@ module.exports = {
 
   // Based on https://github.com/ember-decorators/ember-decorators/blob/v5.2.0/packages/babel-transforms/index.js
   included(parent) {
+    // eslint-disable-next-line prefer-rest-params
     this._super.included.apply(this, arguments);
 
     // Create parent options, if they do not exist
