@@ -1,5 +1,16 @@
 # ember-concurrency-typescript
 
+[![Build Status](https://travis-ci.org/buschtoens/ember-concurrency-typescript.svg)](https://travis-ci.org/buschtoens/ember-concurrency-typescript)
+[![npm version](https://badge.fury.io/js/ember-concurrency-typescript.svg)](http://badge.fury.io/js/ember-concurrency-typescript)
+[![Download Total](https://img.shields.io/npm/dt/ember-concurrency-typescript.svg)](http://badge.fury.io/js/ember-concurrency-typescript)
+[![Ember Observer Score](https://emberobserver.com/badges/ember-concurrency-typescript.svg)](https://emberobserver.com/addons/ember-concurrency-typescript)  
+[![ember.js](https://img.shields.io/badge/Ember.js-%5E2.18%20%7C%7C%20%5E3.0-brightgreen.svg)](https://travis-ci.org/buschtoens/ember-concurrency-typescript)
+[![ember-cli](https://img.shields.io/badge/ember--cli-%5E2.13%20%7C%7C%20%5E3.0-brightgreen.svg)](https://travis-ci.org/buschtoens/ember-concurrency-typescript)
+![ember-cli-babel](https://img.shields.io/badge/ember--cli--babel-%5E7.7.3-brightgreen.svg)  
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![dependencies](https://img.shields.io/david/buschtoens/ember-concurrency-typescript.svg)](https://david-dm.org/buschtoens/ember-concurrency-typescript)
+[![devDependencies](https://img.shields.io/david/dev/buschtoens/ember-concurrency-typescript.svg)](https://david-dm.org/buschtoens/ember-concurrency-typescript)
+
 Use [**ember-concurrency**][ember-concurrency] fully type-checked with
 [**ember-cli-typescript**][ember-cli-typescript] & native class syntax.
 
