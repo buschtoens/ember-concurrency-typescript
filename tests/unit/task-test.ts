@@ -1,5 +1,6 @@
 import { task, timeout } from 'ember-concurrency';
 import { module, test } from 'qunit';
+import { get } from '@ember/object';
 
 module('Unit | task', function() {
   test('simple task', async function(assert) {
@@ -14,7 +15,10 @@ module('Unit | task', function() {
       });
 
       async perform() {
-        const returnValue: 'foo' = await this.someTask.perform(1, 'foo');
+        const returnValue: 'foo' = await get(this, 'someTask').perform(
+          1,
+          'foo'
+        );
         assert.strictEqual(returnValue, 'foo');
       }
     }
