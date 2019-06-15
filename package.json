@@ -1,13 +1,23 @@
 {
   "name": "ember-concurrency-typescript",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "ember-concurrency + ember-cli-typescript + native classes = type safe",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-concurrency",
+    "ember-cli-typescript",
+    "typescript",
+    "ts",
+    "type safe",
+    "type check",
+    "decorator",
+    "babel transform",
+    "syntax",
+    "native class"
   ],
-  "repository": "",
+  "repository": "buschtoens/ember-concurrency-typescript",
   "license": "MIT",
-  "author": "",
+  "author": "Jan Buschtöns <jan@buschtoens.me> (https://jan.buschtoens.me)",
   "directories": {
     "doc": "doc",
     "test": "tests"
