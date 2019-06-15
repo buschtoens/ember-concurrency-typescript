@@ -1,6 +1,6 @@
 {
   "name": "ember-concurrency-typescript",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ember-concurrency + ember-cli-typescript + native classes = type safe",
   "keywords": [
     "ember-addon",
